@@ -46,7 +46,7 @@ public class IKDDhw2 {
 	      try {
 	         int i;
 	         Class.forName("org.postgresql.Driver");
-	         c = DriverManager.getConnection("jdbc:postgresql://iservdb.cloudopenlab.org.tw:5432/sydang.ncku_db_7291","sydang.ncku_user_7291","DzdbUjBy");
+	         c = DriverManager.getConnection("jdbc:postgresql://iservdb.cloudopenlab.org.tw:5432/thyouopop_db_3177","thyouopop_user_3177","4rfrHf3o");
 
 	         Statement st = c.createStatement();
 	         String sql = " select * from twitter WHERE q = '"+instr+"' ORDER BY cast(user_id as bigint) ASC" ;
